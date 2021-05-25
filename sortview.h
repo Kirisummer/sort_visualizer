@@ -5,9 +5,11 @@
 #include "ui_sortview.h"
 
 #include <QWidget>
+
 #include <QGraphicsScene>
 #include <QGraphicsRectItem>
 #include <memory>
+
 
 namespace Ui {
 	class SortView;
@@ -46,8 +48,9 @@ class SortView : public QFrame {
 		Array array;
 
 		std::pair <uint, uint> lastChanged;
+		SortAction lastAction;
 
-		QColor regularColor, swapColor, compareColor;
+		const QColor regularColor, swapColor, compareColor;
 };
 
 #endif // SORTVIEW_H

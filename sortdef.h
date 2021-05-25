@@ -8,7 +8,7 @@
 using Array = std::vector <uint>;
 
 enum class SortAction {
-	Start, None, Swap, Compare
+    Start, Swap, Compare
 };
 
 using ActionResult = std::tuple <SortAction, uint, uint>;

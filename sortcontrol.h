@@ -4,9 +4,9 @@
 #include "sortdef.h"
 #include "ui_sortcontrol.h"
 
-#include <QFrame>
 #include <QTimer>
-#include <memory>
+#include <QFrame>
+
 
 namespace Ui {
 	class sortcontrol;

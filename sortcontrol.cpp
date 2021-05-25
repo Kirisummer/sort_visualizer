@@ -1,7 +1,9 @@
-#include "sortcontrol.h"
 #include "ui_sortcontrol.h"
 
 #include <QRandomGenerator>
+
+#include "sortcontrol.h"
+
 
 SortControl::SortControl(QWidget *parent)
 	: QFrame(parent)

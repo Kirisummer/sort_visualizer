@@ -1,13 +1,15 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "sortcontrol.h"
-#include "sortview.h"
-#include "sortmodel.h"
 #include "ui_mainwindow.h"
 
 #include <QMainWindow>
 #include <memory>
+
+#include "sortcontrol.h"
+#include "sortview.h"
+#include "sortmodel.h"
+
 
 class MainWindow : public QMainWindow {
 	Q_OBJECT
