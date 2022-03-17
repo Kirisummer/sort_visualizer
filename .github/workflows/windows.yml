@@ -30,7 +30,7 @@ jobs:
         uses: jurplel/install-qt-action@v2
         with:
           setup-python: false
-        
+          tools: 'tools_ifw tools_qtcreator,qt.tools.qtcreator'        
 
       - name: Prepare for build
         run: |
